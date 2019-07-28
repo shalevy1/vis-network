@@ -30,7 +30,7 @@
     "test": "npm run test:mocha && npm run test:cypress",
     "test:mocha": "BABEL_ENV=test mocha --exit",
     "test:cov": "BABEL_ENV=test-cov nyc mocha --exit",
-    "test:cypress": "cypress run --headed",
+    "test:cypress": "cypress run",
     "cypress:open": "cypress open",
     "types:network": "tsc -p tsconfig.types.json",
     "js:network": "rollup --config rollup.config.js",
